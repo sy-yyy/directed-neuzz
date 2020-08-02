@@ -1,5 +1,12 @@
 # directed-neuzz
-目前只对nn.py文件做了修改
+
+主要的工作是基于aflgo的框架做的改进。
+可按照aflgo的流程
+1）获取cg、cfg图
+2）将距离计算脚本替换为pre-dominate脚本，用于获取dominate节点
+3）aflgo/llvm_mode下主要对afl-llvm-pass.so.cc 增加了获取dominate节点的插桩随机值的代码
+4）nn1中添加了基于随机值计算出的一些边。
+
 
 
 
